@@ -1,2 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Li403BXs)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16146096&assignment_repo_type=AssignmentRepo)
+# Animal API - Projeto Fake API com JSON Server
+
+Este projeto é uma API fake desenvolvida com o **JSON Server**, simulando um serviço de gerenciamento de animais. Ele permite realizar operações CRUD (Create, Read, Update, Delete) para gerenciar dados de animais de forma simples e rápida, ideal para prototipação e testes de front-end. A API consome dados de um arquivo `db.json`, que serve como um banco de dados local.
+
+## Tecnologias utilizadas:
+- **JSON Server**: Para simular uma API REST completa.
+- **Axios**: Para realizar requisições HTTP de forma assíncrona.
+- **JavaScript**: Para o desenvolvimento do cliente de consumo da API.
+
+## Funcionalidades:
+- Simulação de uma API REST com endpoints customizados.
+- Listagem, criação, atualização e exclusão de dados de animais.
+- Testes de consumo de API via Axios, com suporte para requisições assíncronas.
+1- ## Instale as dependências do projeto:
+
+npm install
+
+## Como executar:
+2. Instale as dependências do projeto:
+   ```bash
+   npm install
+
+
+
+2- Suba o servidor JSON Fake:
+npx json-server --host 0.0.0.0 db.json
