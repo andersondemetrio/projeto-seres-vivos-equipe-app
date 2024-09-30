@@ -23,4 +23,5 @@ npm install
 
 
 2-## Suba o servidor JSON Fake:
+  ```bash
 npx json-server --host 0.0.0.0 db.json
